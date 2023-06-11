@@ -2,6 +2,12 @@ body{
     background: rgb(218,20,107);
     background: radial-gradient(circle, rgba(218,20,107,1) 0%, rgba(78,21,184,1) 100%);
     color: aliceblue;
+    padding-top: 50px;
+}
+/* Nav overlap fix*/
+.header{
+    z-index: 999;
+    position: fixed;
 }
 .p50{
     width:50%;
@@ -27,9 +33,7 @@ h1{
     width: 100%;    
     top: 0px;
 }
-.dropdown{
-    font-size: 20px;    
-}
+
 .h2{
     
     margin-top: 100px;
